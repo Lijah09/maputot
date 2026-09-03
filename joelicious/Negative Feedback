@@ -1,0 +1,43 @@
+---
+tags:
+  - subject
+  - difficulty
+  - status
+  - type/note
+created: 29/08/2026 15:26
+updated: 03/09/2026 11:31
+---
+# Negative Feedback
+- Seeks a goal and responds as a consequence of failing to achieve the goal
+- It occurs to reduce the change or output
+- input signal is the difference between original input and feedback signal
+- can reduce discrepancies between desired output signal and actual output signal
+	- can minimise errors
+- used more in control systems
+
+### Disadvantages
+- slower response
+- energy loss because of complexity
+### Advantages
+- good system stability (prevents oscillations)
+- system becomes more reliable
+- can resist external disturbances; keeps a secure system
+
+### Applications
+- temperature control (ex: HVAC)
+- cruise/speed control in vehicles
+- amplifiers (audio systems)
+- dynamic stability (ex: aircraft)
+### Transfer Function of Negative Feedback
+$$TF=\frac{G}{1+GH}$$
+
+![[Pasted image 20260903110339.png]]
+## Related
+<!-- coceptual links only — things this genuinely connects to, not everything adjacent -->
+
+
+
+---
+## Sources
+
+- [GeeksforGeeks](https://www.geeksforgeeks.org/)
