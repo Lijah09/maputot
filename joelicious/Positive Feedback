@@ -1,0 +1,46 @@
+---
+created: 29/08/2026 15:26
+updated: 03/09/2026 11:01
+tags:
+  - type/note
+  - subject/theory
+  - subject/systems
+  - difficulty/intermediate
+  - status/to-review
+---
+# Positive Feedback
+- input signal is the sum of actual signal
+- can be used to amplify system responses
+- Generates growth processes wherein action builds a result that generate greater actions
+- It occurs to increase the change or output
+- used less in traditional control systems
+- major drawback: **instability**
+### Disadvantages
+- hard to control and regulate
+- amplification can create system instability or failure
+	- hard to maintain system stability
+### Advantages
+- mainly used for amplification
+- best in non-linear systems (ex: oscillators/amplifiers)
+- used in applications where quicker responses to changes in input
+### Uses/Application
+- regenerative amplifiers (for signal amplitude); also for audio systems
+- oscillators (for oscillations and electronic circuits)
+- biological processes during childbirth (to intensify labour process)
+- robotics and automation
+### Transfer Function of Positive Feedback:
+
+$$
+TF=\frac{G}{1-GH}
+$$
+
+
+![[Pasted image 20260903103846.png]]
+## Related
+<!-- coceptual links only — things this genuinely connects to, not everything adjacent -->
+
+
+
+---
+## Sources
+- [Difference between Positive Feedback and Negative Feedback](https://www.geeksforgeeks.org/electronics-engineering/difference-between-positive-feedback-and-negative-feedback/)
