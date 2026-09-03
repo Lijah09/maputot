@@ -1,0 +1,28 @@
+The process of creating and analyzing a digital prototype of a physical model to predict its performance in the real world
+
+**Static Simulation Model**
+- Represents a system at particular point in time
+	- Example: Monte Carlo Simulation
+
+**Dynamic Simulation Models**
+- Represents systems as they change over time
+	- Example: Process model
+
+Deterministic or Stochastic
+- Deterministic
+	- Simulation contains no random variable(s)
+	- Example: patients arrive in a doctor's office at a pre-scheduled time
+- Stochastic
+	- Forecasts the probability of various outcomes under different conditions, using random variables
+
+**Discrete or Continuous**
+- Continuous
+	- State variable(s) change continuously over time
+	- Example: the amount of water flow over a dam
+- Discrete
+	- Is one in which the state variable(s) change only at a discrete set of points in time
+
+
+
+
+
