@@ -1,0 +1,65 @@
+---
+created: 29/08/2026 15:26
+updated: 03/09/2026 10:22
+tags:
+  - type/note
+  - subject/theory
+  - difficulty/intermediate
+  - status/to-review
+---
+# CPU Scheduling
+method of selecting the order of processes in the ready queue
+aims to use processor efficiently and minimize waiting & response time
+
+Arrival Time (AT)
+- process arrival in the ready queue
+Completion Time (Ct)
+- time of completion with execution of process
+Burst Time (BT)
+- time needed by process for CPU execution
+- Cumulative Burst time 
+Turn Around Time (TAT)
+- time difference between completion time and arrival time
+- `TAT = CT - AT`
+Waiting time (WT)
+ - Idle time
+ - `WT = BT - AT`
+ - `WT = TAT - BT`
+Response time
+ - the time where the task was first processed
+ - the time where the system started the task
+---
+**Non-Preemptive Scheduling**
+- Need to finish a task before it could proceed to another task
+- **Examples**:
+	- First come first serve
+	- shortest job first (shortest burst time)
+	- Longest job first (longest burst time)
+	- Highest response ratio next 
+
+Preemptive
+- the current processing can be halted because of a task with higher priority
+- needs to have a result calendar
+- **Examples**:
+	- Priority Scheduling
+	- Shortest remaining job first (process with lest time left to finish is selected to run; running process continue until process with shorter remaining time arrives)
+	- Longest remaining job first
+	- Round robin (**quantum time** - time allocated for a specific job. ex: 1 sec only allocated for a specific job)
+
+| Algo                    | Allocation                                                                      | Complexity                                         | AWT                                               | Preemption | Starvation | Performance                                       |
+| ----------------------- | ------------------------------------------------------------------------------- | -------------------------------------------------- | ------------------------------------------------- | ---------- | ---------- | ------------------------------------------------- |
+| FCFS                    | According to the arrival time of the processes, the CPU is allocated.           | Simple and easy to implement                       | Large.                                            | No         | No         | Slow                                              |
+| SJF                     | Based on the lowest CPU burst time  (BT).                                       | More complex than FCFS                             | Smaller than FCFS                                 | No         | Yes        | Minimum Average Waiting Time                      |
+| RR                      | According to the order of the process arrives with fixed time quantum (TQ)      | The complexity depends on Time Quantum size        | Large as compared to SJF and Priority scheduling. | Yes        | No         | Each process has given a fairly fixed time        |
+| Priority Pre-emptive    | According to the priority. The bigger priority task executes first              | This type is less complex                          | Smaller than FCFS                                 | Yes        | Yes        | Well performance but contain a starvation problem |
+| Priority non-preemptive | According to the priority with monitoring the new incoming higher priority jobs | This type is less complex than Priority preemptive | Preemptive Smaller than FCFS                      | No         | Yes        | Most beneficial with batch systems                |
+## Related
+<!-- coceptual links only — things this genuinely connects to, not everything adjacent -->
+
+
+
+---
+## Sources
+
+- [Preemptive and Non-Preemptive Scheduling | GeeksforGeeks](https://www.geeksforgeeks.org/operating-systems/preemptive-and-non-preemptive-scheduling/)
+- [CPU Scheduling in Operating Systems | GeeksforGeeks](https://www.geeksforgeeks.org/operating-systems/cpu-scheduling-in-operating-systems/)
