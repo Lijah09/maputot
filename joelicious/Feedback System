@@ -1,0 +1,42 @@
+---
+created: 29/08/2026 15:26
+updated: 03/09/2026 11:15
+tags:
+  - subject
+  - difficulty
+  - status
+  - type/note
+---
+# Feedback System
+- Also called Closed System
+- Compares its output to a desired input and takes corrective action to force the output to follow the input (manage the input to get the desired output from the system)
+- operates using the output of the system sent to its input as feedback
+- Has a **closed loop** structure; allows system to monitor and adjust
+- Is influenced by the results of its own previous actions or behaviors
+- Past actions control present and future actions
+
+### Feedback Loop
+- Involves monitoring the actual behavior of a system and comparing its behavior to standards
+- Information about deviation from standard is transmitted to the appropriate point in the system so that effective action can be taken
+
+#### Types of Feedback Systems
+- [[Positive Feedback]]: Growth (input signal is sum of actual signal)
+- [[Negative Feedback]]: Goal Seeking
+
+| Positive Feedback                                | Negative Feedback                               |
+| ------------------------------------------------ | ----------------------------------------------- |
+| also called **regenerative feedback**            | also called **degenerative feedback**           |
+| High system gain                                 | Low system gain                                 |
+| Less Stability                                   | More Stability                                  |
+| Low sensitivity                                  | High sensitivity                                |
+
+
+## Related
+<!-- coceptual links only — things this genuinely connects to, not everything adjacent -->
+[control systems]
+There are two types of control systems: open-loop control systems and closed-loop control systems
+
+---
+## Sources
+
+- [Difference between Positive Feedback and Negative Feedback]([https://www.geeksforgeeks.org/](https://www.geeksforgeeks.org/electronics-engineering/difference-between-positive-feedback-and-negative-feedback/))
