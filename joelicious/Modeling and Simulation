@@ -1,0 +1,179 @@
+**Model**
+- Representation of an object, system process or idea.
+- NOT the actual system, the model is the simplified version that captures the important details while ignoring unnecessary complexity
+- The process of representing a system with a specific tool to study its behavior
+**Simulation**
+- A method for implementing a model over time
+- Helps analyze the performance of an existing or a proposed system
+- Doesn't need to be computer-based
+- Dynamic representations of models
+
+Purposes of simulation
+- enables the study of, and experimentation with, the internal interaction of a complex system or of a subsystem within a complex system
+- Informational, organizational, and environmental changes can be simulated and the effects of these changes on the model's behavior can be observed
+- The knowledge gained in designing a simulation model may be of great value toward suggesting improvement in the system under investigation
+- By changing simulation inputs and observing the resulting outputs, valuable insight may be obtained into which variables are most important and how variables react
+- simulation can be used as an instructional device to reinforce analytic solution methodologies
+- simulation can be used to experiment with new designs or policies prior to implementation, so as to prepare for what may happen
+- simulation can be used to verify analytic solutions
+- by simulating different capabilities of a machine, requirements can be determined
+- simulation models designed for training allow learning without the cost and disruption of on-the-job learning
+- animation shows a system in a simulated operation so that the plan can be visualized
+- the modern system is so complex that the interaction can be treated only through simulation
+
+Simulation is not appropriate when:
+- a problem can be solved by common sense
+- a problem can be solved analytically
+- it is easier to  perform direct experiments
+- the costs exceeds the savings
+- resources are not available
+- time is not available
+- data is not available
+- not enough time or personnel are not available. it is concerned with the verification and validation of the model
+- managers have unreasonable expectations
+- system behavior is complex
+SIMULATION USES A LOT OF DATA
+
+Advantages of modeling and simulation
+- easy to understand
+- easy to test
+- easy to upgrade
+- easy to identifying constraints
+- easy to diagnose problems
+
+Disadvantages
+- simulation process is expensive
+- requires manpower
+
+Applications areas
+- Military applications
+- training and support
+- designing semiconductors
+- telecommunications
+- civil engineering designs presentations
+- E-business models
+
+Types of Models
+- [[Physical or Scale Model]]
+- [[Symbolic or Abstract model]]
+- [[Simulation Model]]
+
+**Modeling Process**
+1. Determine the Problem
+	- Examine the problem
+		- Understand the problem
+		- Choose its classification accordingly
+			- Such as deterministic or stochastic
+2. Design a Model
+	- Collect data
+		- System behavior
+		- future requirements
+	- Analyze the system feature
+	- Determine the
+		- Variable names
+		- functions
+		- its units
+		- relationships
+		- their applications used in the models
+	- Solve the model using a suitable technique
+		- verify the results using verification methods
+		- validate the results
+	- Prepare a report which includes
+		- results
+		- interpretations
+		- conclusions
+		- suggestions
+3. Recommendation
+	- Provide recommendations after completing the entire process related to the model
+		- Investment
+		- resources algorithms
+		- techniques
+
+**Validation and Verification of Computer Simulation Models**
+- Verification:
+	- The process of determining that a model implementation and its associated data accurately represent the developer's conceptual description and specifications
+	- "Tama ba ginagawa mo??"
+- Validation:
+	- The process of determining the determining the degree to which a model and it's associated data are an accurate representation of the real world from the perspective of the intended uses of the model
+	- "Tama ba pinag gagagawa mo??"
+
+**Validation Methods**
+- Comparison to Other Models
+	- Compared results to other valid models
+- Face Validity
+	- Requesting acknowledgement from others about the system
+- Historical Data Validation
+	- Comparing data with other historical data
+- Parameter Variability - Sensitivity Analysis
+	- Changing the values of the input and internal parameters of a model
+		- Determine the effect of output on the model's behavior
+- Predictive Validation
+	- Requires data in about a year from now to validate results
+
+Perform Validation of Simulation Model
+1. Design a model with high validity
+	- Determine how close is the simulation output with the real system output
+	- Comparison can be performed
+	- Statistical method can be used for comparing the model output with the real system output 
+2. Determine the representative output of the simulation model
+3. Provide recommendations after completing the entire process related to the model
+
+**System**
+- A part of a potential reality where we are concerned with space-time effects and casual relationship among parts of the system
+- May include people as well as physical parts
+	- Examples Family, Automobile, Warehouse, Management, etc.
+
+**Structure**
+- An arrangement and the organization of interrelated elements in a material or system
+- the arrangement of and relations between the parts or elements of something complex
+- A structure is an effective interrelation and interpretation of our observation in any field of knowledge
+- Without an organizing structure, knowledge is a mere collection of observations, practices, and conflicting incidents
+- Structure determines behavior
+- Any specified behavior of a system must be produced by a combination of the interacting components
+- Those components lie within a boundary that defines and encloses the system
+
+**Casual Thinking**
+- Approach used to promote our understanding of events, patterns of behavior resulting in the events, and the underlying structure responsible for the patterns of behavior
+- Key to organizing ideas
+
+**Casual Reasoning**
+- Process of identifying casualty (the relationship between cause and the effect)
+- The ability to identify relationships between causes and the effects they produce
+
+**System Boundary**
+- Conceptual line that divides the system that you want to study from everything else
+
+Self-Contained System
+- Nothing flows in and out of the system
+
+Classifications of Systems
+- [[Open System]]
+- [[Feedback System]]
+
+**Verification and Validation**
+#### Verification
+- Process of determining whether the simulation has been implemented correctly
+- DID WE BUILD THE MODEL CORRECTLY?
+- "Correct?"
+Focuses on:
+- Logic
+- Algorithms
+- Programming code
+- Calculations
+Verification techniques
+- Code review
+- Walkthrough
+- Debugging
+- Trace analysis
+- Test cases
+#### Validation
+- Process of determining whether the simulation model accurately represents the real-world systems being studied
+- DID WE BUILD THE CORRECT MODEL?
+- "Accurate?"
+Validation techniques
+- Historical Data Validation
+- Expert Validation
+- Face Validation
+- Predictive Validation
+- Statistical Validation
+![[Pasted image 20260902164620.png]]
